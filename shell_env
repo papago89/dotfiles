@@ -1,0 +1,3 @@
+# ~/.shell_env
+export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+export GODEBUG=x509negativeserial=1
