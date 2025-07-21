@@ -112,5 +112,12 @@ require("lazy").setup({
         signature = { enabled = true },
     },
     opts_extend = { "sources.default" },
+  },
+  {
+    "nvim-treesitter/nvim-treesitter-textobjects",
+    dependencies = "nvim-treesitter/nvim-treesitter",
+    config = function()
+      require("config.nvim-treesitter-textobjects")
+    end,
   }
 })
